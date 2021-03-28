@@ -3,7 +3,7 @@ const app = express()
 const port = 8080
 
 app.get('/', (req, res) => {
-  res.send('Hello World!'+
+  res.send('Hello World! Hallo Welt'+
 	  '\nRM: 337956   NOME: GABRIEL LUCAS DE TOLEDO RIBEIRO'+
 	  '\nRM: 337432 NOME: Lucas Rodrigues')
 })
